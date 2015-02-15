@@ -1,12 +1,12 @@
 //First Node project
 //From MEAN, chapter 3
 
-var censoredWords["sad", "bad", "mad"];
-var customCensoredWords = []'
+var censoredWords = ["sad", "bad", "mad"];
+var customCensoredWords = [];
 
 function censor(inStr) {
     for (idx in censoredWords)  {
-        inStr = inStr,replace(sensoredWords[idx], "*****");
+        inStr = inStr.replace(censoredWords[idx], "*****");
     }
     
     for (idx in customCensoredWords) {
@@ -25,5 +25,5 @@ function getCensoredWords() {
 
 exports.censor = censor;
 exports.addCensoredWord = addCensoredWord;
-exports.getCensoredWords - getCensoredWords;
+exports.getCensoredWords = getCensoredWords;
 
