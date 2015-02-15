@@ -1,6 +1,6 @@
 {
     "author": "Taylor Huston",
-    "name": "censorify",
+    "name": "taylorcensorify",
     "version": "0.1.1",
     "description": "Censors words out of text",
     "main": "censortext",
